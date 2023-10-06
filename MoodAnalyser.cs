@@ -17,14 +17,23 @@ namespace Exception
 
         public string analyse_mood()
         {
-            if (this.message.Contains("Sad"))
+            try
             {
-                return "SAD";
+                if (this.message.Contains("Sad"))
+                {
+                    return "SAD";
+                }
+                else
+                {
+                    return "Happy";
+                }
+
             }
-            else
+            catch
             {
-                return "Happy";
+                return "HAPPY";
             }
+
         }
     }
 }
