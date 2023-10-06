@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "Exception.csproj", "{50328E9D-8F3D-4898-B044-3DC299B3FA01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptionn", "Exceptionn.csproj", "{50328E9D-8F3D-4898-B044-3DC299B3FA01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{8194A83E-7249-4A9A-8191-AD4A6EFB9EC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{8194A83E-7249-4A9A-8191-AD4A6EFB9EC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

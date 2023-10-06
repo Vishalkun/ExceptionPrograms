@@ -19,6 +19,11 @@ namespace Exception
         {
             try
             {
+                if (this.message.Equals(string.Empty))
+                {
+                    throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.EMPTY_MESSAGE, "Mood can not be empty");
+
+                }
                 if (this.message.Contains("Sad"))
                 {
                     return "SAD";
@@ -29,9 +34,9 @@ namespace Exception
                 }
 
             }
-            catch
+            catch (Exception)
             {
-                return "HAPPY";
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NULL_MESSAGE, "Invalid mood");
             }
 
         }
